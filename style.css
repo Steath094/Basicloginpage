@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: gray;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background: white;
+    width: 28%;
+    height: 500px;
+    position: absolute;
+}
+.heading{
+    position: relative;
+    top: 16px;
+    left: 36px;
+    margin: 10px;
+}
+.heading>h1{
+    font-family: "Pacifico", cursive;
+}
+a{
+    font-family: "Exo 2", sans-serif;
+    text-decoration: none;
+}
+
+.createaccount{
+    padding: 4px;
+    display: flex;
+}
+.createaccount>p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-right: 8px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px;
+    margin-top: 20px;
+    
+}
+
+
+.input{
+    width: 21vw;
+    padding-left: 15px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 8px;
+    background-color: rgb(228, 228, 228);
+    border: unset;
+    
+}
+.userinfo{
+    position: relative;
+}
+.check{
+    position: absolute;
+    right: 26px;
+    bottom: 2px;
+    z-index: 2;
+    cursor: pointer;
+    height: 36px;
+    width: 30px;
+
+}
+.action{
+    width: 21vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signinbutton{
+    background: rgb(54, 54, 255);
+    color: white;
+    padding: 8px;
+    width: 35%;
+    border-radius: 30px;
+    border: unset;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.or{
+    display: flex;
+    align-items: center;
+}
+.line{
+    width: 140px;
+    background-color: gray;
+    height: 1px;
+    margin: 14px;
+}
+.others{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.others>button{
+    width: 70%;
+    background-color: white;
+    border: 2px solid gray;
+    height: 40px;
+    border-radius: 30px;
+    margin: 8px;
+    cursor: pointer;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
